@@ -1,0 +1,94 @@
+nav{
+    background-color: rgb(226, 226, 226);
+    /* z-index: 99; */
+    /* background: #000; */
+}
+body{
+    overflow-x: hidden;
+}
+.search{
+    position: relative;
+    left: -730px;
+}
+input::placeholder{
+    padding: 30px;
+}
+.carousel-item{
+    height: 100vh;
+}
+.find{
+    position: absolute;
+    top: 300px;
+    left: 450PX;
+}
+.find>h1{
+    font-size: 40px;
+    padding-left: 50px;
+}
+.find>p{
+    width: 400px;
+    padding-left: 80px;
+    font-size: 17px;
+}
+.free{
+    font-weight: bolder;
+    margin-left: 170px;
+    margin-top: 10px;
+    border: none;
+}
+.mt{
+    background-color: black !important;
+    margin-top: 300px;
+}
+.login{
+    border: none;
+}
+.sign{
+    border: none;
+}
+ul{
+    color: white;
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+.dropdown-toggle{
+    color: white;
+}
+
+.list{
+    height: 10vh;
+}
+@media screen and (max-width:576px){
+    body{
+        overflow-x: hidden;
+    }
+    .art>input{
+        display: none;
+    }
+    .sign{
+        display: none;
+    }
+    .login{
+        /* margin-left: -70px; */
+        margin-left: 100px;
+        border: 1px solid white;
+    }
+    .flick{
+        margin-left: -40px;
+        /* width: 30px; */
+        /* height: 10px; */
+    }
+    nav{
+        padding-left: 10px;
+    }
+    .sear{
+    margin-left: 50px;
+    }
+
+    .carousel-item{
+        height: 300vh;
+    }
+    
+ 
+}
